@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = SocialInteraction
+build_property.ProjectDir = /Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

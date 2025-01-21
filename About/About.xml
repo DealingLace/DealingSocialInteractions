@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Social Interaction LLM</name>
+    <author>YourName</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>Enhances social interactions using LLM-generated text.</description>
+    <packageId>YourName.SocialInteractionLLM</packageId>
+</ModMetaData>

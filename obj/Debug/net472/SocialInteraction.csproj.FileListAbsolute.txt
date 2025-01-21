@@ -1,0 +1,12 @@
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialInteraction.csproj.AssemblyReference.cache
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialInteraction.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialInteraction.AssemblyInfoInputs.cache
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialInteraction.AssemblyInfo.cs
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialInteraction.csproj.CoreCompileInputs.cache
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/bin/Debug/net472/SocialInteraction.dll
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/bin/Debug/net472/SocialInteraction.pdb
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/bin/Debug/net472/Newtonsoft.Json.dll
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/bin/Debug/net472/RestSharp.dll
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialIn.BB4B5603.Up2Date
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialInteraction.dll
+/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/Debug/net472/SocialInteraction.pdb

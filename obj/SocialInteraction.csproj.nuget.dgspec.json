@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/SocialInteraction.csproj": {}
+  },
+  "projects": {
+    "/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/SocialInteraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/SocialInteraction.csproj",
+        "projectName": "SocialInteraction",
+        "projectPath": "/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/SocialInteraction.csproj",
+        "packagesPath": "/Users/gavinblair/.nuget/packages/",
+        "outputPath": "/Users/gavinblair/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/SocialInteractionLLM/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gavinblair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
