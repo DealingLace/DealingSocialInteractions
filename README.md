@@ -1,5 +1,7 @@
 A Rimworld mod that will display what the colonists are saying to each other, using a locally installed LLM. You will need Ollama running llama3.2:3b for this to work.
 
+![Screenshot](screenshot.png)
+
 This is only tested on a Mac. To install:
 ```
 $ cd ~/Library/Application\ Support/Steam/steamapps/common/RimWorld/RimWorldMac.
