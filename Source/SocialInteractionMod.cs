@@ -15,6 +15,7 @@ namespace SocialInteractionLLM
         public string endpoint = "http://localhost:11434";
         public bool enableMod = true;
         public float temperature = 0.7f;
+        public string systemPrompt = "You are generating social interaction messages between two RimWorld colonists. Keep responses immersive, brief, and fitting the game's tone. Responses should be a single sentence within quotes. Make it more detailed and personality-driven, considering their traits and relationship.";
     }
 
     public class SocialInteractionMod : Mod
@@ -87,17 +88,11 @@ namespace SocialInteractionLLM
         private static string GeneratePrompt(Pawn initiator, Pawn recipient, string originalMessage)
         {
             float opinion = initiator.relations.OpinionOf(recipient);
-            return $@"You are helping generate social interaction messages for the game RimWorld.
-                     Generate a short, one-sentence interaction message between these two colonists:
-                     
-                     Initiator: {initiator.Name.ToStringShort} (Traits: {string.Join(", ", initiator.story.traits.allTraits)})
+            return $@"Initiator: {initiator.Name.ToStringShort} (Traits: {string.Join(", ", initiator.story.traits.allTraits)})
                      Recipient: {recipient.Name.ToStringShort} (Traits: {string.Join(", ", recipient.story.traits.allTraits)})
                      Their relationship: {(opinion > 0 ? "Positive" : "Negative")} ({opinion} opinion)
-                     Original message: {originalMessage}
-                     
-                     Make it more detailed and personality-driven, considering their traits and relationship.
-                     Keep it brief and similar in tone to RimWorld's style.
-                     Return only the generated message, no additional text or instructions. Just what they said inside quotes.";
+                     Original message: {originalMessage}";
+			Log.Message($"{originalMessage}");
         }
 
         private static async Task<string> CallOllamaAsync(string prompt)
@@ -110,7 +105,8 @@ namespace SocialInteractionLLM
                                   model = SocialInteractionMod.settings.modelName,
                                   prompt = EscapeJsonString(prompt),
                                   temperature = SocialInteractionMod.settings.temperature.ToString("F1"),
-                                  stream = false
+                                  stream = false,
+                                  system = SocialInteractionMod.settings.systemPrompt
                               });
 
                 var response = await restClient.ExecuteAsync(request);
